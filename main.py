@@ -7,6 +7,7 @@ from PIL.ExifTags import TAGS
 import magic
 import base64
 from colorama import Fore, init
+import io
 
 # Initialize colorama
 init()
@@ -64,7 +65,6 @@ for img_url in img_urls:
                     tag_name = TAGS.get(tag, tag)
                     print(f'{tag_name}: {value}')
                     
-                    
                 # Check for malicious metadata
                 mime = magic.from_file(image_path, mime=True)
                 if mime.startswith('image'):
@@ -79,7 +79,3 @@ for img_url in img_urls:
                 print(f'{Fore.YELLOW}No metadata found.')
         except Exception as e:
             print(f'{Fore.RED}Error: {str(e)}{Fore.RESET}')
-            
-        print()
-    else:
-        print(f'{Fore.RED}[-] Failed to download image.{Fore.RESET}')
