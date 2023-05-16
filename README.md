@@ -19,7 +19,7 @@ To use this script, follow these steps:
 1. Clone this repository to your local machine:
 
    ```shell
-   git clone https://github.com/your-username/repository-name.git
+   git clone https://github.com/WarrenMu/image-meta.git
 Navigate to the repository's directory:
 
 shell
