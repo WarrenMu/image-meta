@@ -46,15 +46,7 @@ from colorama import init, Fore
 init()
 
 # Example usage
-url = 'https://example.com/image.jpg'
-directory = 'image_directory'
-
-download_images(url, directory)
-image_path = os.path.join(directory, 'image.jpg')
-
-display_metadata(image_path)
-check_malicious_metadata(image_path)
-Make sure to replace https://example.com/image.jpg with the actual URL of the image you want to download, and image_directory with the desired directory name.
+url = 'https://example.com/'
 
 License
 This project is licensed under the MIT License. Feel free to modify and use the code according to your needs.
