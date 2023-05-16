@@ -42,8 +42,6 @@ from PIL.ExifTags import TAGS
 import magic
 from colorama import init, Fore
 
-# Initialize colorama
-init()
 
 # Example usage
 url = 'https://example.com/'
