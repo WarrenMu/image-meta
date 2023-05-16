@@ -1,7 +1,3 @@
-Apologies for the confusion. Here's the updated code in the raw format for the README.md file:
-
-markdown
-Copy code
 # Image Processing and Metadata Analysis
 
 This repository contains a Python script that allows you to download an image from a URL, display its metadata, and check for malicious metadata. It utilizes the following libraries:
